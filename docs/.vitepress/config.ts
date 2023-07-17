@@ -8,25 +8,11 @@ const blogTheme = getThemeConfig({
   // 友链
   friend: [
     {
-      nickname: '粥里有勺糖',
-      des: '你的指尖用于改变世界的力量',
-      avatar:
-        'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
-      url: 'https://sugarat.top'
-    },
-    {
       nickname: 'Vitepress',
       des: 'Vite & Vue Powered Static Site Generator',
       avatar:
         'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTI2NzY1Ng==674995267656',
       url: 'https://vitepress.vuejs.org/'
-    },
-    {
-      nickname: '个人简介',
-      des: '简单了解一下我吧～',
-      avatar:
-        'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
-      url: 'https://sugarat.top'
     },
   ],
   recommend: {
@@ -76,7 +62,6 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '计网', link: '/Network/01.%E8%AE%A1%E7%BD%91%E8%B5%B7%E6%AD%A5.html' },
       { text: '关于我', link: '/sop/introduce.html' }
     ],
     socialLinks: [
