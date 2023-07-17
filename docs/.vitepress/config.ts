@@ -36,6 +36,7 @@ const blogTheme = getThemeConfig({
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/my-blog/",
   extends: blogTheme,
   lang: 'zh-cn',
   title: '@luminous/docs',
