@@ -48,17 +48,21 @@ export default defineConfig({
     }
   },
   lastUpdated: true,
+  markdown: {
+    lineNumbers: true,
+    toc: { level: [1, 2, 3] },
+  },
   themeConfig: {
     lastUpdatedText: '上次更新于',
     footer: {
-      message: '自定义底部内容',
+      message: '每天前进 30 公里',
       copyright:
-        'MIT Licensed | <a target="_blank" href=""> @luminous/docs </a>'
+        'MIT Licensed | <a target="_blank" href="https://github.com/jiacheng-coder/my-blog"> @luminous/docs </a>'
     },
     logo: '/logo.png',
     // editLink: {
     //   pattern:
-    //     'https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path',
+    //     'https://github.com/jiacheng-coder/my-blog/tree/main/packages/blogpress/:path',
     //   text: '去 GitHub 上编辑内容'
     // },
     nav: [

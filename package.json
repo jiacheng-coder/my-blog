@@ -13,9 +13,11 @@
     "@element-plus/icons-vue": "^2.1.0",
     "@sugarat/theme": "^0.1.34",
     "element-plus": "^2.3.4",
+    "pagefind": "0.12.0",
     "vue": "^3.2.47"
   },
   "devDependencies": {
+    "markdown-it-anchor": "^8.6.7",
     "sass": "^1.59.2",
     "typescript": "^4.9.5",
     "vitepress": "1.0.0-beta.5"
