@@ -10,13 +10,12 @@ const blogTheme = getThemeConfig({
     {
       nickname: 'Vitepress',
       des: 'Vite & Vue Powered Static Site Generator',
-      avatar:
-        'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTI2NzY1Ng==674995267656',
-      url: 'https://vitepress.vuejs.org/'
+      avatar: 'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTI2NzY1Ng==674995267656',
+      url: 'https://vitepress.vuejs.org/',
     },
   ],
   recommend: {
-    showSelf: true
+    showSelf: true,
   },
   // 开启离线的全文搜索支持（如构建报错可注释下面的配置再次尝试）
   search: 'pagefind',
@@ -36,7 +35,7 @@ const blogTheme = getThemeConfig({
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/my-blog/",
+  base: '/my-blog/',
   extends: blogTheme,
   lang: 'zh-cn',
   title: '@luminous/docs',
@@ -44,8 +43,8 @@ export default defineConfig({
   vite: {
     optimizeDeps: {
       include: ['element-plus'],
-      exclude: ['@sugarat/theme']
-    }
+      exclude: ['@sugarat/theme'],
+    },
   },
   lastUpdated: true,
   markdown: {
@@ -56,8 +55,7 @@ export default defineConfig({
     lastUpdatedText: '上次更新于',
     footer: {
       message: '每天前进 30 公里',
-      copyright:
-        'MIT Licensed | <a target="_blank" href="https://github.com/jiacheng-coder/my-blog"> @luminous/docs </a>'
+      copyright: 'MIT Licensed | <a target="_blank" href="https://github.com/jiacheng-coder/my-blog"> @luminous/docs </a>',
     },
     logo: '/logo.png',
     // editLink: {
@@ -67,13 +65,13 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于我', link: '/sop/introduce.html' }
+      { text: '关于我', link: '/sop/introduce.html' },
     ],
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/jiacheng-coder'
-      }
-    ]
-  }
+        link: 'https://github.com/jiacheng-coder',
+      },
+    ],
+  },
 })
